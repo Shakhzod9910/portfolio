@@ -493,19 +493,19 @@ section .title::after{
 }
 
 .skills .skills-content .right .css::before{
-    width: 60%;
+    width: 65%;
 }
 
 .skills .skills-content .right .js::before{
-    width: 15%;
+    width: 70%;
 }
 
 .skills .skills-content .right .react::before{
-    width: 10%;
+    width: 55%;
 }
 
 .skills .skills-content .right .spl::before{
-    width:70%;
+    width:60%;
 }
 
 /* teams section styling */
