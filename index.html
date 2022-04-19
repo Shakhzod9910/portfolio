@@ -343,25 +343,24 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required name="name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required name="email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required name="subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Describe project.." required name="message"></textarea>
                         </div>
                         <div class="button">
                             <button type="reset">Send message</button>
                         </div>
-
                     </form>
                 </div>
             </div>
