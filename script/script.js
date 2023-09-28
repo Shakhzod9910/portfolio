@@ -27,41 +27,58 @@ $(window).scroll(function(){
 
     // typing script
 
-    var typed = new Typed(".typing",{
-        strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    })
 
-    var typed = new Typed(".typing-2",{
-        strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    })
+        var typed1 = new Typed(".typing", {
+            strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+        
+        var typed2 = new Typed(".typing-2", {
+            strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+
+        
+
+    // var typed = new Typed(".typing",{
+    //     strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // })
+
+    // var typed = new Typed(".typing-2",{
+    //     strings: ["Web Designer", "Backend Developer", "Freelancer", "Frontend Developer"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // })
 
     // owl carousel script
 
-    $('.carouse').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0:{
-                items:1,
-                nav:false
-            },
-            600:{
-                items:2,
-                nav:false
-            },
-            1000:{
-                items:3,
-                nav:false
-            }
+//     $('.carouse').owlCarousel({
+//         margin: 20,
+//         loop: true,
+//         autoplayTimeOut: 2000,
+//         autoplayHoverPause: true,
+//         responsive: {
+//             0:{
+//                 items:1,
+//                 nav:false
+//             },
+//             600:{
+//                 items:2,
+//                 nav:false
+//             },
+//             1000:{
+//                 items:3,
+//                 nav:false
+//             }
             
-        }
-    })
+//         }
+//     })
 });

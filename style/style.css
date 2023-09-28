@@ -190,7 +190,7 @@ html{
     text-align: center;
     line-height: 45px;
     color: #fff;
-    z-index: 9999;
+    z-index: 3;
     font-size: 30px;
     border-radius: 6px;
     cursor: pointer;
@@ -796,11 +796,12 @@ footer .messagers a i:hover {
 
     .navbar .menu{
         position: fixed;
+        z-index: 4;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0;
-        background: hsl(0 0% 100% / 0.1);
+        background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(1rem);
         text-align: center;
         padding-top: 80px;
