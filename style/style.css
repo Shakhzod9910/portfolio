@@ -894,7 +894,9 @@ footer .messagers a i:hover {
         z-index: -10;
         top: 0;
         height: 64vh;
-        background-color: none !important;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: transparent !important;
         object-fit: cover;
     }
 
