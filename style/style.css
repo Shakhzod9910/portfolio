@@ -888,7 +888,8 @@ footer .messagers a i:hover {
         font-family: 'Ubuntu' , sans-serif;
     }
     .video-bcg1{
-        /* display: ; */
+        display:flex ;
+        border: 5px solid red;
         width: 100vw;
         position: absolute;
         z-index: -10;
