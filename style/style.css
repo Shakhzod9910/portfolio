@@ -888,16 +888,11 @@ footer .messagers a i:hover {
         font-family: 'Ubuntu' , sans-serif;
     }
     .video-bcg1{
-        display:flex ;
-        border: 5px solid red;
         width: 100vw;
         position: absolute;
         z-index: -10;
         top: 0;
         height: 64vh;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: transparent !important;
         object-fit: cover;
     }
 
