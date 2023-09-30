@@ -801,7 +801,7 @@ footer .messagers a i:hover {
         width: 100%;
         left: -100%;
         top: 0;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.1),#000;
         backdrop-filter: blur(1rem);
         text-align: center;
         padding-top: 80px;
