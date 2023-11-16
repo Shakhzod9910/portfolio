@@ -977,6 +977,15 @@ footer .messagers a i:hover {
     .animation .text span i{
         font-size: 66px;
         color: #F5A427;
+        
+    }
+    footer .messagers{
+        display: flex;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content:space-around;
+        
     }
 }
 
