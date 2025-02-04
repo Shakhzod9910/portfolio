@@ -732,6 +732,33 @@ footer .messagers a i:hover {
   color: #fff;
 }
 
+.success_message {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 90px;
+  z-index: 999;
+  transition: all 0.3s ease;
+  right: -300px;
+  span {
+    height: 100%;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #02be18;
+  }
+}
+
+.success_message_active {
+  right: 20px;
+}
+
 /* responsive media query strat */
 
 @media (min-width: 1400px) {
