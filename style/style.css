@@ -461,17 +461,6 @@ section .title::after {
 /* skills content styling */
 /* some of the code is not visible in the preview, please check the code in the editor */
 
-/* .skills .skills-content .column {
-  width: calc(33% - 20px);
-  height: 200px;
-  background-color: #222;
-  text-align: center;
-  border-radius: 6px;
-  padding: 20px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-} */
-
 .skills .title::after {
   content: "what I know";
 }
