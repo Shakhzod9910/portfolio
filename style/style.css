@@ -459,7 +459,6 @@ section .title::after {
 }
 
 /* skills content styling */
-/* some of the code is not visible in the preview, please check the code in the editor */
 
 .skills .title::after {
   content: "what I know";
